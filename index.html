@@ -4,15 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Download ScanNote | Future of Notes</title>
+
     <script src="https://cdn.tailwindcss.com"></script>
+
     <style>
-        body { background: radial-gradient(circle at center, #0f172a 0%, #020617 100%); color: white; }
-        .glow-text { text-shadow: 0 0 15px rgba(59, 130, 246, 0.8); }
-        .btn-futuristic { 
+        body {
+            background: radial-gradient(circle at center, #0f172a 0%, #020617 100%);
+            color: white;
+        }
+
+        .glow-text {
+            text-shadow: 0 0 15px rgba(59, 130, 246, 0.8);
+        }
+
+        .btn-futuristic {
             background: linear-gradient(90deg, #2563eb, #3b82f6);
             transition: all 0.3s ease;
         }
-        .btn-futuristic:hover { transform: scale(1.05); box-shadow: 0 0 20px rgba(37, 99, 235, 0.6); }
+
+        .btn-futuristic:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(37, 99, 235, 0.6);
+        }
     </style>
 </head>
 <body class="min-h-screen flex flex-col items-center justify-center p-6">
@@ -20,14 +33,34 @@
     <img src="icon.png" alt="ScanNote Logo" class="w-48 mb-8">
 
     <div class="text-center max-w-2xl">
-        <p class="text-xl text-blue-200 mb-10">Capture, organize, and transform your notes with the power of futuristic scanning technology.</p>
+        <h1 class="text-5xl font-extrabold mb-4 glow-text">
+            ScanNote
+        </h1>
 
-        <a href="https://drive.google.com/file/d/15gLFAx3vX-oTSbZPQNbtKatrzHLVfhct/view?usp=drive_link" class="btn-futuristic px-10 py-4 rounded-full text-lg font-bold uppercase tracking-widest flex items-center gap-3">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
-            Download APK
+        <p class="text-xl text-blue-200 mb-10">
+            Capture, organize, and transform your notes with the power of futuristic scanning technology.
+        </p>
+
+        <a
+            href="https://drive.google.com/file/d/15gLFAx3vX-oTSbZPQNbtKatrzHLVfhct/view?usp=drive_link"
+            target="_blank"
+            class="btn-futuristic px-10 py-4 rounded-full text-lg font-bold uppercase tracking-widest flex items-center justify-center gap-3 text-center mx-auto w-fit"
+        >
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4">
+                </path>
+            </svg>
+
+            <span>Download APK</span>
         </a>
-        
-        <p class="mt-6 text-sm text-blue-400">Version 1.0.0 | Requires Android 10+</p>
+
+        <p class="mt-6 text-sm text-blue-400">
+            Version 1.0.0 | Requires Android 10+
+        </p>
     </div>
 
 </body>
